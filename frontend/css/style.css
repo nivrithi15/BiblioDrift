@@ -83,6 +83,11 @@ html[data-theme="night"] body {
     color: #e0d5cb !important;
     border-color: rgba(255, 255, 255, 0.1) !important;
 }
+/* Dark Mode override */
+[data-theme='night'] {
+  --accent-gold: #CCAC00; 
+  --tooltip-text: #987B60; /* White text for better visibility */
+}
 
 /* Global Wooden Scrollbar Styling */
 ::-webkit-scrollbar {
